@@ -74,4 +74,6 @@ func main() {
 	if err := stdhttp.ListenAndServe(":"+port, server); err != nil {
 		log.Fatal(err)
 	}
+
+	fmt.Println(undefinedVariable)
 }
