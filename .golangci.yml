@@ -1,0 +1,15 @@
+run:
+  timeout: 3m
+  tests: true
+
+linters:
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+    - unused
+    - stylecheck
+    - dupl
+
+issues:
+  exclude-use-default: false
