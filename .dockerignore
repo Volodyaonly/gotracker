@@ -1,0 +1,16 @@
+.git
+.github
+
+.env
+
+bin/
+api.exe
+
+pgdata/
+
+*.log
+*.out
+*.tmp
+
+.idea/
+.vscode/
